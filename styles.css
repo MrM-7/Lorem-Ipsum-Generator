@@ -1,0 +1,97 @@
+
+body{
+    background-color: black;
+    font-size: 1.2rem;
+    color: white;
+    letter-spacing: 0.2rem;
+}
+
+::selection{
+    background-color: #FDE8CD;
+}
+
+.container{
+    text-align: center;
+
+}
+
+.title{
+    line-height: 3;
+    margin-top: 5%;
+    color: #DCAE96;
+    
+}
+
+
+#para{
+    color: #DCAE96;
+    margin: 0 2%;
+}
+
+.lorem-form{
+    margin-bottom: 3%;
+}
+
+
+#lorem-text{
+    color: rgb(155, 150, 150);
+    width: 55%;
+    text-align: center;
+    margin-left: 23%;
+}
+
+#amount{
+    width: 7%;
+    margin-right: 1%;
+}
+
+.copy{
+    margin-bottom: 3%;
+    width: 20%;
+    margin-left: 75%;
+}
+
+.copy-text{
+    background-color: #32a1ce;
+    padding: 0 2%;
+}
+
+.copy-text:hover{
+    background-color: #D62AD0;
+    transition: background-color 0.5s;
+}
+
+ .sub-container{
+     visibility: hidden;
+    border: thick double #32a1ce;
+    width: 90%;
+    margin-left: 4.5%;
+    border-top: hidden;
+    padding-bottom: 1%;
+} 
+
+.sub-container:hover{
+    border: thick double red;
+    border-top: hidden;
+}
+
+.lorem-form{
+    margin-right: 2.7%;
+}
+
+button{
+    background-color:#D62AD0;
+    color: white;
+    border: 1px solid #FFF8E5;
+    padding: 0 .5%;
+    line-height: 2;
+    margin-left: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #3DB2FF;
+    color: white;
+    transition: background-color 0.5s;
+}
